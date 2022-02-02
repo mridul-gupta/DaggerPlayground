@@ -5,7 +5,7 @@ import com.mg.daggerplayground.MainActivity
 import dagger.Component
 
 @Component(
-    modules = [WheelsModule::class]
+    modules = [WheelsModule::class, DieselEngineModule::class]
 )
 interface CarComponent {
 
