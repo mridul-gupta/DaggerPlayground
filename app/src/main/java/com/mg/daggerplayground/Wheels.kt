@@ -1,9 +1,8 @@
 package com.mg.daggerplayground
 
 import android.util.Log
-import javax.inject.Inject
 
-class Wheels @Inject constructor() {
+class Wheels constructor(rims: Rims, tires: Tires) {
 
     private val TAG = "Wheels"
 
