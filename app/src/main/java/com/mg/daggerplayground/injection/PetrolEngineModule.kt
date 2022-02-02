@@ -2,12 +2,12 @@ package com.mg.daggerplayground.injection
 
 import com.mg.daggerplayground.Engine
 import com.mg.daggerplayground.PetrolEngine
+import dagger.Binds
 import dagger.Module
-import dagger.Provides
 
 @Module
-class PetrolEngineModule {
+abstract class PetrolEngineModule {
 
-    @Provides
-    fun provideEngine(petrolEngine: PetrolEngine): Engine = petrolEngine
+    @Binds
+    abstract fun provideEngine(petrolEngine: PetrolEngine): Engine
 }
