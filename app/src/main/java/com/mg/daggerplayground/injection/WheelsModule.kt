@@ -1,8 +1,8 @@
 package com.mg.daggerplayground.injection
 
-import com.mg.daggerplayground.Rims
-import com.mg.daggerplayground.Tires
-import com.mg.daggerplayground.Wheels
+import com.mg.daggerplayground.car.Rims
+import com.mg.daggerplayground.car.Tires
+import com.mg.daggerplayground.car.Wheels
 import dagger.Module
 import dagger.Provides
 

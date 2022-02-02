@@ -1,4 +1,4 @@
-package com.mg.daggerplayground
+package com.mg.daggerplayground.car
 
 import android.util.Log
 import javax.inject.Inject

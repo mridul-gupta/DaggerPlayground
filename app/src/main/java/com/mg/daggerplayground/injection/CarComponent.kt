@@ -1,6 +1,6 @@
 package com.mg.daggerplayground.injection
 
-import com.mg.daggerplayground.Car
+import com.mg.daggerplayground.car.Car
 import com.mg.daggerplayground.MainActivity
 import dagger.Component
 

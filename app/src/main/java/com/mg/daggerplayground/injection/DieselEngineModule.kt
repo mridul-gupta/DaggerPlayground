@@ -1,11 +1,9 @@
 package com.mg.daggerplayground.injection
 
-import com.mg.daggerplayground.DieselEngine
-import com.mg.daggerplayground.Engine
-import com.mg.daggerplayground.PetrolEngine
+import com.mg.daggerplayground.car.DieselEngine
+import com.mg.daggerplayground.car.Engine
 import dagger.Binds
 import dagger.Module
-import dagger.Provides
 
 @Module
 abstract class DieselEngineModule {
